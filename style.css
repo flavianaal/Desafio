@@ -1,0 +1,84 @@
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family:  Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+    align-items: justify;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    margin: 0px auto;  	
+	width: 100%;  	
+	background: #FFFFFF;
+}
+
+.group-form {
+    padding: 5px 0;
+}
+
+.group-form label {
+    font-weight: 900px;
+    color: #000000;
+}
+
+.group-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.group-form input[type=submit] {
+    background-color: #1B356E;
+    font-weight: 600;
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.imagem img{
+    text-align: left;
+    min-height: 50%;
+    width: 10%;
+}
+
+#imgPokemon img {
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+}
+#result {
+    font-family: monospace;
+    padding: 10px;
+    background-color: #CF3;
+    border: 1px solid #c8a102;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
+}
+#barra {background: #CF3;} 
+#footer  {  	
+    clear: both;  	
+	background: #CF3;
+    color: #000000;
+	text-align: center;
+	font-size: 90%;
+    padding: 5px;
+    border-top: 1px solid #999;
+	margin-top: 600px;
+}
